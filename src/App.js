@@ -5,7 +5,7 @@ import About from "./pages/about"
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import First from './pages/first';
-import './components/layout.css'
+import './style/layout.css'
 
 const App = () => {
   
@@ -15,11 +15,8 @@ const App = () => {
    <div className="wrapper-index">
      <Header/>
        <First/>
-       <div className="border-about"></div> 
       <About/>
-      <div className="border-about"></div> 
       <Projects/>
-      <div className="border-about"></div> 
       <Contact/>
    </div>
   

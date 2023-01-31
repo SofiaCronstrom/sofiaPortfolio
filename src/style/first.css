@@ -1,0 +1,78 @@
+/* FIRST PAGE */
+.container-index{
+    background-image: url("../images/Group\ 26.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-color: #292929;
+    
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .index-name{
+  font-family: var(--header-font);
+  color: #FFF403;
+  font-size: 5em;
+  letter-spacing: 0.02em;
+  padding-left: 10vw;
+  
+  }
+  
+  .index-header, .index-2{
+    font-family: var(--paraG-font);
+    color: #EAE3FF;
+    font-size: 3.5em;
+    font-weight: normal;
+    padding-left: 10vw;
+    padding-bottom: 12vh; 
+  }
+  .gitText-first, .linkedText{
+    font-family: var(--paraG-font);
+    font-size: 1.1em;
+    color: #FFF403;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .github-first{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  .linkedin-first{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  @media only screen and (max-width: 700px) {
+    html {
+      font-size: 100%;
+    }
+    .container-index{
+      background-image: url("../images/Group\ 31.png");
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: contain;
+      background-repeat: no-repeat; background-size: cover;
+    }
+    .burger{
+      padding-left: 87vw;
+    }
+    .index-header{
+       font-size: 1.5em;
+    }
+    .index-2{
+      font-size: 1em;
+    }
+    .index-name{
+      font-size: 2.8em;
+      padding-top: 15px;
+    }
+   
+   
+  
+  }  

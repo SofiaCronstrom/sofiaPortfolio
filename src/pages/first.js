@@ -1,7 +1,7 @@
 import * as React from "react";
 import GithubIcon from '../images/github.png';
 import LinkedinIcon from '../images/linkedin.png';
-
+import '../style/first.css'
 const first = () => {
 
 

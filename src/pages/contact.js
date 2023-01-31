@@ -1,7 +1,7 @@
 import * as React from "react";
 import GithubIcon from '../images/github-icon.svg';
 import LinkedinIcon from '../images/linkedin-icon.svg';
-
+import '../style/contact.css';
 
 
 

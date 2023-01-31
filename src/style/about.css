@@ -1,0 +1,107 @@
+/*ABOUT PAGE*/
+.wrapper-about{
+    background-image: url("../images/Group\ 28.png");
+    background-position: left top;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-color: #292929;
+    
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .border-about{
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    border-color: #FFF403;
+  }
+  
+  .text-container{
+   
+    background-color: #FFF403;
+    
+    width: 650px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: start;
+    justify-items: start;
+    align-items: start;
+    
+    
+  }
+  .profile-container{
+    width: 270px;
+    height: 270px;
+    background-color: #fafc7e;
+    box-shadow: 15px 15px 15px #313131;
+  }
+  .profile{
+    
+    width: 250px;
+    height: 250px;
+    margin: auto 0;
+  }
+  .text-head{
+    background-color: #fafc7e;
+    padding-top: 65px;
+    font-weight: 600;
+    box-shadow: 15px 15px 15px #313131;
+    width: 300px;
+    font-family: var(--paraG-font);
+    color: #292929;
+  }
+  .text-head h2{
+    padding-left: 10px;
+    
+  }
+  .text-head p{
+    padding: 10px;
+    width: 275px;
+    height: 300px;
+    
+  }
+  @media only screen and (max-width: 700px){
+    /*ABOUT MOBILE*/
+    .wrapper-about{
+      background-image: url("../images/Group\ 32.png");
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      
+    }
+    .profile-container{
+      width: 180px;
+      height: 180px;
+    }
+    .profile{
+    
+      width: 150px;
+      height: 150px;
+      margin: auto 0;
+    }
+    .text-container{
+      display: grid;
+      grid-template-columns: repeat(1, 200px);
+      grid-auto-rows: minmax(200px, auto);
+      width: 250px;
+      height: 400px;
+      font-size: 0.6em;
+    }
+    .text-head{
+      padding-top: 10px;
+      font-size: 1.2em;
+      padding: 5px;
+      width: 180px;
+      height: 235px;
+  
+    }
+    .text-head p{
+      height: 250px;
+      width: 150px;
+    }
+  }
