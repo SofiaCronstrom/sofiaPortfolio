@@ -9,8 +9,7 @@
     
     height: 790px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
     
   }
   .border-about{
@@ -22,11 +21,9 @@
   .text-container{
    
     background-color: #FFF403;
-    
-    width: 650px;
-    height: 450px;
+    height: 600px;
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(1, 300px);
     justify-content: start;
     justify-items: start;
     align-items: start;
@@ -47,10 +44,9 @@
   }
   .text-head{
     background-color: #fafc7e;
-    padding-top: 65px;
+    padding: 10px 0 10px 0;
     font-weight: 600;
     box-shadow: 15px 15px 15px #313131;
-    width: 300px;
     font-family: var(--paraG-font);
     color: #292929;
   }
@@ -61,7 +57,7 @@
   .text-head p{
     padding: 10px;
     width: 275px;
-    height: 300px;
+    
     
   }
   @media only screen and (max-width: 700px){
