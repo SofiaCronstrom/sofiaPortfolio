@@ -1,4 +1,6 @@
 import * as React from "react"
+import GithubIcon from '../images/github-icon.svg';
+import LinkedinIcon from '../images/linkedin-icon.svg';
 import '../style/about.css'
 const About = () => {
 
@@ -7,12 +9,12 @@ const About = () => {
    <div className="wrapper-about">
       
        <div className="text-container">
-         <div className="profile-container">
-         <div className="index-box">
-        <h1 className="index-name">SOFIA CRONSTRÖM<br/></h1>
-        <h2 className="index-header">Frontend developer</h2>
+       <div className="profile-container">
+            <div className="index-box">
+                <h1 className="index-name">SOFIA CRONSTRÖM<br/></h1>
+                <h2 className="index-header">Frontend developer</h2>
+            </div>
         </div>
-         </div>
          <div className="text-head">
            <h2>Hi!</h2>
               <p className="me-text">
@@ -22,7 +24,21 @@ const About = () => {
               </p>
 
           </div>
-          
+          <div className="text-head">
+            <div className="text">
+                <h3>sofia.cronstrom@gmail.com</h3>
+            </div>
+            <div className="gitText">
+                <a href='https://github.com/SofiaCronstrom'>
+                <img src={GithubIcon} className="github" alt="github icon with link to my githubpage when clicked"/>
+            
+                </a> 
+            
+                <a href='https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/'>
+                <img src={LinkedinIcon} className="linkedin" alt="linkedin icon with link to my linkedin when clicked"/>
+                </a> 
+            </div>
+        </div>
         </div>
     </div> 
 

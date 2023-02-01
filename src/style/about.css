@@ -8,19 +8,16 @@
   .index-name{
     font-family: var(--paraG-font);
     color: #292929;
-    font-size: 5em;
+    font-weight: bolder;
+    font-size: 2em;
     letter-spacing: 0.02em;
-    padding-left: 10vw;
-    
     }
     
     .index-header, .index-2{
       font-family: var(--paraG-font);
       color: #292929;
-      font-size: 3.5em;
-      font-weight: normal;
-      padding-left: 10vw;
-      padding-bottom: 12vh; 
+      font-size: 1.5em;
+      font-weight: bold;
     }
   
   .text-container{
@@ -55,9 +52,9 @@
     font-family: var(--paraG-font);
     color: #292929;
   }
-  .text-head h2{
+  .text-head h2, h3, p{
     padding-left: 10px;
-    
+    font-weight: bold;
   }
   .text-head p{
     padding: 10px;
