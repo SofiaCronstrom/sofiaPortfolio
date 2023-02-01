@@ -8,7 +8,10 @@ const About = () => {
       
        <div className="text-container">
          <div className="profile-container">
-        
+         <div className="index-box">
+        <h1 className="index-name">SOFIA CRONSTRÖM<br/></h1>
+        <h2 className="index-header">Frontend developer</h2>
+        </div>
          </div>
          <div className="text-head">
            <h2>Hi!</h2>

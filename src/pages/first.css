@@ -1,5 +1,5 @@
 /* FIRST PAGE */
-.container-index{
+.wrapper{
     background-image: url("../images/Group\ 26.png");
     background-position: center center;
     background-attachment: fixed;
@@ -12,24 +12,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  
-  .index-name{
-  font-family: var(--header-font);
-  color: #FFF403;
-  font-size: 5em;
-  letter-spacing: 0.02em;
-  padding-left: 10vw;
-  
-  }
-  
-  .index-header, .index-2{
-    font-family: var(--paraG-font);
-    color: #EAE3FF;
-    font-size: 3.5em;
-    font-weight: normal;
-    padding-left: 10vw;
-    padding-bottom: 12vh; 
-  }
+
   .gitText-first, .linkedText{
     font-family: var(--paraG-font);
     font-size: 1.1em;

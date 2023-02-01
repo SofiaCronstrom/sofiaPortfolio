@@ -1,16 +1,19 @@
 import * as React from "react";
 import GithubIcon from '../images/github.png';
 import LinkedinIcon from '../images/linkedin.png';
-import '../style/first.css'
+import About from '../components/about.js';
+import './first.css';
 const first = () => {
 
 
     return (  
+        
+        <div class="wrapper">
+          <About/>
+        
         <div className="container-index">
-        <div className="index-box">
-        <h1 className="index-name">SOFIA CRONSTRÖM<br/></h1>
-        <h2 className="index-header">Frontend developer</h2>
-        </div>
+            
+        
         <div className="gitText-first">
                 <a href='https://github.com/SofiaCronstrom'>
                 <img src={GithubIcon} className="github-first" alt="github icon with link to my githubpage when clicked"/>
@@ -22,7 +25,7 @@ const first = () => {
                 </a> 
             </div>
         </div>
-      
+      </div>
     );
 }
  

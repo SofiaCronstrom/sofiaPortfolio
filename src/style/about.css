@@ -1,22 +1,27 @@
 /*ABOUT PAGE*/
 .wrapper-about{
-    background-image: url("../images/Group\ 28.png");
-    background-position: left top;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-color: #292929;
-    
     height: 790px;
     display: flex;
    
     
   }
-  .border-about{
-    border-style: solid;
-    border-width: 0 2px 2px 0;
-    border-color: #FFF403;
-  }
+  .index-name{
+    font-family: var(--paraG-font);
+    color: #292929;
+    font-size: 5em;
+    letter-spacing: 0.02em;
+    padding-left: 10vw;
+    
+    }
+    
+    .index-header, .index-2{
+      font-family: var(--paraG-font);
+      color: #292929;
+      font-size: 3.5em;
+      font-weight: normal;
+      padding-left: 10vw;
+      padding-bottom: 12vh; 
+    }
   
   .text-container{
    
