@@ -25,9 +25,7 @@ const About = () => {
 
           </div>
           <div className="text-head">
-            <div className="text">
-                <h3>sofia.cronstrom@gmail.com</h3>
-            </div>
+            
             <div className="gitText">
                 <a href='https://github.com/SofiaCronstrom'>
                 <img src={GithubIcon} className="github" alt="github icon with link to my githubpage when clicked"/>
@@ -37,6 +35,9 @@ const About = () => {
                 <a href='https://www.linkedin.com/in/sofia-cronstr%C3%B6m-080a4998/'>
                 <img src={LinkedinIcon} className="linkedin" alt="linkedin icon with link to my linkedin when clicked"/>
                 </a> 
+            </div>
+            <div className="text">
+                <p className="mail">sofia.cronstrom@gmail.com</p>
             </div>
         </div>
         </div>

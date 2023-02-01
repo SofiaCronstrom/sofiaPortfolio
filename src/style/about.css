@@ -7,7 +7,7 @@
   }
   .index-name{
     font-family: var(--paraG-font);
-    color: #292929;
+    color: #222221;
     font-weight: bolder;
     font-size: 2em;
     letter-spacing: 0.02em;
@@ -15,28 +15,29 @@
     
     .index-header, .index-2{
       font-family: var(--paraG-font);
-      color: #292929;
+      color: #222221;
       font-size: 1.5em;
-      font-weight: bold;
     }
   
   .text-container{
-   
-    background-color: #FFF403;
+    opacity: 1;
     height: 600px;
     display: grid;
     grid-template-columns: repeat(1, 300px);
     justify-content: start;
     justify-items: start;
     align-items: start;
-    
+    margin-left: 20px;
     
   }
   .profile-container{
-    width: 270px;
-    height: 270px;
-    background-color: #fafc7e;
-    box-shadow: 15px 15px 15px #313131;
+    width: 250px;
+    height: 200px;
+    background-color: #FFF403;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /*box-shadow: 15px 15px 15px #313131;*/
   }
   .profile{
     
@@ -45,21 +46,40 @@
     margin: auto 0;
   }
   .text-head{
-    background-color: #fafc7e;
+    background-color: #FFF403;
     padding: 10px 0 10px 0;
     font-weight: 600;
-    box-shadow: 15px 15px 15px #313131;
     font-family: var(--paraG-font);
-    color: #292929;
+    color: #222221;
+    font-size: 16px;
   }
   .text-head h2, h3, p{
-    padding-left: 10px;
-    font-weight: bold;
+    padding: 10px;
+  
   }
   .text-head p{
     padding: 10px;
     width: 275px;
+  }
+  .mail{
+   font-size: 20px;
+  }
+  .gitText, .linkedText{
+    padding: 10px 0 10px 0;
+    display: flex;
+    /* color: #222221; */
+    justify-content: center;
+  
+  }
+  
+  .github{
+    width: 5vw;
+    height: 6vh;
     
+  }
+  .linkedin{
+    width: 5vw;
+    height: 6vh;
     
   }
   @media only screen and (max-width: 700px){

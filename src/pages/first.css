@@ -1,11 +1,12 @@
 /* FIRST PAGE */
 .wrapper{
-    background-image: url("../images/Group\ 26.png");
+    background-image: url("../images/Group\ 29.png");
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: contain;
-    background-color: #292929;
+    background-color: #222221;
+  
     
     height: 790px;
     display: flex;
