@@ -1,10 +1,7 @@
 /*ABOUT PAGE*/
 .wrapper-about{
-    height: 790px;
-    display: flex;
-   
-    
-  }
+  display: flex;
+}
   .index-name{
     font-family: var(--paraG-font);
     color: #222221;
@@ -83,15 +80,6 @@
     
   }
   @media only screen and (max-width: 700px){
-    /*ABOUT MOBILE*/
-    .wrapper-about{
-      background-image: url("../images/Group\ 32.png");
-      background-position: center center;
-      background-attachment: fixed;
-      background-repeat: no-repeat; 
-      background-size: cover;
-      
-    }
     .profile-container{
       width: 180px;
       height: 180px;

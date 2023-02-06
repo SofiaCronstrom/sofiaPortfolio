@@ -1,37 +1,16 @@
 /* FIRST PAGE */
-.wrapper{
-    background-image: url("../images/Group\ 29.png");
-    background-position: center center;
-    background-attachment: fixed;
+.wrapper-index{
+    background-image: url("../images/Group\ 36.svg");
+  
+    background-position: center;
     background-repeat: no-repeat; 
     background-size: contain;
     background-color: #222221;
-  
-    
-    height: 790px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
-  .gitText-first, .linkedText{
-    font-family: var(--paraG-font);
-    font-size: 1.1em;
-    color: #FFF403;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .github-first{
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-  }
-  .linkedin-first{
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-  }
   @media only screen and (max-width: 700px) {
     html {
       font-size: 100%;
