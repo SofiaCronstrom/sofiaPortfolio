@@ -1,10 +1,10 @@
 /* FIRST PAGE */
 .wrapper-index{
-    background-image: url("../images/Group\ 36.svg");
+   /* background-image: url("../images/Group\ 36.svg");
   
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: contain;
+    background-size: contain;*/
     background-color: #222221;
     height: 100vh;
     display: flex;
@@ -15,13 +15,13 @@
     html {
       font-size: 100%;
     }
-    .wrapper-index{
+    /*.wrapper-index{
       background-image: url("../images/Group\ 37.svg");
       background-position: center center;
       background-attachment: fixed;
       background-size: contain;
       background-repeat: no-repeat; background-size: cover;
-    }
+    }*/
     .burger{
       padding-left: 87vw;
     }
