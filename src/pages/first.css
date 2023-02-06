@@ -8,15 +8,15 @@
     background-color: #222221;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   @media only screen and (max-width: 700px) {
     html {
       font-size: 100%;
     }
-    .container-index{
-      background-image: url("../images/Group\ 31.png");
+    .wrapper-index{
+      background-image: url("../images/Group\ 37.svg");
       background-position: center center;
       background-attachment: fixed;
       background-size: contain;

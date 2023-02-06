@@ -1,16 +1,17 @@
 import * as React from "react";
 import About from '../components/about.js';
+import Projects from '../components/projects.js'
 import './first.css';
 const first = () => {
 
 
     return (  
         
-        <div class="wrapper">
-        
+        <React.Fragment>
           <About/>
-       
-      </div>
+          <Projects/>
+       </React.Fragment>
+   
     );
 }
  
