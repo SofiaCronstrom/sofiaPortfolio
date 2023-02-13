@@ -3,7 +3,7 @@ import { useState } from 'react';
 import "../style/accordion.css"
 
 
-const Projects = ({id, image, content})=>{
+const Projects = ({id, image, content, link})=>{
 
     const [isActive, setIsActive] = useState("");
     const [isOpacity, setIsOpacity] = useState("0");
@@ -29,7 +29,10 @@ const Projects = ({id, image, content})=>{
                 
             </div>
             <div className="accordion-content"
-                  style={{opacity: `${isOpacity}`, visibility: `${isVisibility}`}}>{content}</div>
+                  style={{opacity: `${isOpacity}`, visibility: `${isVisibility}`}}>
+                  <a href={link}>Go to website</a><br/>
+                    {content}
+            </div>
           </div>
     
     )

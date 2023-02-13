@@ -10,30 +10,29 @@ import Weatherapp from "../images/weatherapp.png";
 
 import './first.css';
 const first = () => {
+
+
     const accordionData = [
     {
         id: "item1",
         image: `${Sleepcycle}`,
-        content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Quis sapiente laborum cupiditate possimus labore, hic temporibus 
-        velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`
+        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
+        Et perspiciatis dolore iure voluptatem.`,
+        link: "https://investors.sleepcycle.com/"
      },
      {
         id: "item2",
         image: `${Mershowroom}`,
-        content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Quis sapiente laborum cupiditate possimus labore, hic temporibus 
-        velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`
+        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
+        Et perspiciatis dolore iure voluptatem.`,
+        link: "https://mershowroom.netlify.app/"
      },
      {
         id: "item3",
         image: `${Dizzydream}`,
-        content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Quis sapiente laborum cupiditate possimus labore, hic temporibus 
-        velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`
+        content: `Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
+        Et perspiciatis dolore iure voluptatem.`,
+        link: "https://sofiacronstrom.github.io/dizzy-dream/"
      },
      {
         id: "item4",
@@ -50,8 +49,8 @@ const first = () => {
         <React.Fragment>
           <About/>
           <div className="project-index">
-                {accordionData.map(({ id, image, content }) => (
-                <Projects key={id} image={image} content={content}/>
+                {accordionData.map(({ id, image, content, link }) => (
+                <Projects key={id} image={image} content={content} link={link}/>
                 ))}
          </div>
         </React.Fragment>

@@ -5,7 +5,9 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;*/
-    background-color: #414140;
+    background-color: #ececeb;
+    background-image: linear-gradient(rgba(67, 68, 67, 0.581) .1em, transparent .1em), linear-gradient(90deg, rgba(67, 68, 67, 0.581) .1em, transparent .1em);
+    background-size: 5em 5em;
     height: 100vh;
     display: flex;
     flex-direction: row;
