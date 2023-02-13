@@ -17,6 +17,12 @@
 }
 .accordion-title{
     padding: 10px 10px 10px 10px;
+    width: 100%;
+    aspect-ratio: 3/1;
+}
+img{
+    width: 100%;
+    aspect-ratio: 3/1.5;
 }
 
 .accordion-content{

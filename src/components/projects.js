@@ -3,7 +3,7 @@ import { useState } from 'react';
 import "../style/accordion.css"
 
 
-const Projects = ({image, content})=>{
+const Projects = ({id, image, content})=>{
 
     const [isActive, setIsActive] = useState("");
     const [isOpacity, setIsOpacity] = useState("0");
@@ -21,11 +21,11 @@ const Projects = ({image, content})=>{
 
     return(
     
-        <div className="accordion-object">
+        <div className="accordion-object" id={id}>
             <div className={`accordion-title ${isActive}`}
             onClick={toggleAccordion}
             >
-                <img style={{width: "400px"}} src={image} alt="the first page on sleepcycles investor site"/>
+                <img src={image} alt="the first page on sleepcycles investor site"/>
                 
             </div>
             <div className="accordion-content"

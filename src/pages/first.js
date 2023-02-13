@@ -12,6 +12,7 @@ import './first.css';
 const first = () => {
     const accordionData = [
     {
+        id: "item1",
         image: `${Sleepcycle}`,
         content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Quis sapiente laborum cupiditate possimus labore, hic temporibus 
@@ -19,6 +20,7 @@ const first = () => {
         Et perspiciatis dolore iure voluptatem.`
      },
      {
+        id: "item2",
         image: `${Mershowroom}`,
         content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Quis sapiente laborum cupiditate possimus labore, hic temporibus 
@@ -26,6 +28,7 @@ const first = () => {
         Et perspiciatis dolore iure voluptatem.`
      },
      {
+        id: "item3",
         image: `${Dizzydream}`,
         content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Quis sapiente laborum cupiditate possimus labore, hic temporibus 
@@ -33,6 +36,7 @@ const first = () => {
         Et perspiciatis dolore iure voluptatem.`
      },
      {
+        id: "item4",
         image: `${Weatherapp}`,
         content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Quis sapiente laborum cupiditate possimus labore, hic temporibus 
@@ -46,8 +50,8 @@ const first = () => {
         <React.Fragment>
           <About/>
           <div className="project-index">
-                {accordionData.map(({ image, content }) => (
-                <Projects image={image} content={content}/>
+                {accordionData.map(({ id, image, content }) => (
+                <Projects key={id} image={image} content={content}/>
                 ))}
          </div>
         </React.Fragment>
