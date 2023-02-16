@@ -23,9 +23,7 @@
 
 }
 
-.accordion-object:hover{
-    transform: rotate(0);
-}
+
 
 .accordion-title, .accordion-content{
     font-weight: 600;
@@ -56,13 +54,14 @@ img{
     top: -18px;
     position: absolute;
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    transition: visibility 0s linear 0s, opacity 300ms;
-   
+    transition: zindex .15s linear;
+    z-index: -1;
     transform: rotate(-6deg);
 }
 
 .accordion-title:hover{
-    background-color: #feff9c;
+    background-color: #f8fc10;
+    
 }
 .accordion-title:after{
     background-color: #FFF403;

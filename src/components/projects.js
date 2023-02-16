@@ -6,34 +6,34 @@ import "../style/accordion.css"
 const Projects = ({id, image, content, link})=>{
 
     const [isActive, setIsActive] = useState("");
-    //const [isOpacity, setIsOpacity] = useState("0");
-    const [isVisibility, setIsVisibility] = useState("-1")
+    const [isVisibility, setIsVisibility] = useState("")
     
     function toggleAccordion() {
+
         setIsActive(isActive === "" ? "active" : "");
-       // setIsOpacity(
-       //   isActive === "active" ? "0" : "1"
-       // );
-        setIsVisibility(
-           isActive === "active" ? "2" : "-1"
-        );
+        setIsVisibility(isActive === "active" ? "translateY(100px)" : "" );
     }
 
-    return(
     
+
+    return(
+        <div>
         <div className="accordion-object" id={id}>
             <div className={`accordion-title ${isActive}`}
             onClick={toggleAccordion}
+            style={{transform: `${isVisibility}`}}
             >
                 <img src={image} alt="the first page on sleepcycles investor site"/>
                 
             </div>
-            <div className="accordion-content"
-                  style={{zIndex: `${isVisibility}`}}>
-                  <a href={link}>Go to website</a><br/>
-                    {content}
+            <div className="accordion-content">
+                  {link ?  <a href={link}>Got to website</a> : ""}
+                  {content}
             </div>
           </div>
+          
+        </div>
+          
     
     )
 };

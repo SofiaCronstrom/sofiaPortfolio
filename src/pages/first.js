@@ -48,11 +48,13 @@ const first = () => {
         
         <React.Fragment>
           <About/>
+          
           <div className="project-index">
                 {accordionData.map(({ id, image, content, link }) => (
                 <Projects key={id} image={image} content={content} link={link}/>
                 ))}
          </div>
+         
         </React.Fragment>
    
     );

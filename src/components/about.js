@@ -1,6 +1,7 @@
 import * as React from "react"
 import GithubIcon from '../images/github-icon.svg';
 import LinkedinIcon from '../images/linkedin-icon.svg';
+import ProjectArrow from "../images/projectarrow.svg"
 import '../style/about.css'
 const About = () => {
 
@@ -40,6 +41,7 @@ const About = () => {
                 <p className="mail">sofia.cronstrom@gmail.com</p>
             </div>
         </div>
+        <img className="projectArrow" src={ProjectArrow} alt="" />
         </div>
     </div> 
 
