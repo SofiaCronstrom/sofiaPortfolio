@@ -6,16 +6,16 @@ import "../style/accordion.css"
 const Projects = ({id, image, content, link})=>{
 
     const [isActive, setIsActive] = useState("");
-    const [isOpacity, setIsOpacity] = useState("0");
-    const [isVisibility, setIsVisibility] = useState("hidden")
+    //const [isOpacity, setIsOpacity] = useState("0");
+    const [isVisibility, setIsVisibility] = useState("-1")
     
     function toggleAccordion() {
         setIsActive(isActive === "" ? "active" : "");
-        setIsOpacity(
-          isActive === "active" ? "0" : "1"
-        );
+       // setIsOpacity(
+       //   isActive === "active" ? "0" : "1"
+       // );
         setIsVisibility(
-           isActive === "active" ? "hidden" : "visible"
+           isActive === "active" ? "2" : "-1"
         );
     }
 
@@ -29,7 +29,7 @@ const Projects = ({id, image, content, link})=>{
                 
             </div>
             <div className="accordion-content"
-                  style={{opacity: `${isOpacity}`, visibility: `${isVisibility}`}}>
+                  style={{zIndex: `${isVisibility}`}}>
                   <a href={link}>Go to website</a><br/>
                     {content}
             </div>

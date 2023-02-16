@@ -1,17 +1,22 @@
 /* FIRST PAGE */
 .wrapper-index{
-   /*background-image: url("../images/corkBackground.png");
+  
   
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: cover;*/
-    background-color: #ececeb;
-    background-image: linear-gradient(rgba(67, 68, 67, 0.581) .1em, transparent .1em), linear-gradient(90deg, rgba(67, 68, 67, 0.581) .1em, transparent .1em);
-    background-size: 5em 5em;
+    background-size: cover;
+    background:#dcdcdc;
+  
+   
+    background-image: linear-gradient(rgba(138, 139, 138, 0.7) .05em, transparent .01em), linear-gradient(90deg, rgba(140, 141, 140, 0.7) .05em, transparent .01em);
+    background-size: 1em 1em;
+   
     height: 100vh;
     display: flex;
     flex-direction: row;
-  }
+
+}
+
 
   @media only screen and (max-width: 700px) {
     html {

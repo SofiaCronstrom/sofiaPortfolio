@@ -30,7 +30,7 @@
   .profile-container{
     width: 250px;
     height: 200px;
-    background-color: #fff740;
+    background-color: #b3eeff;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@
     margin: auto 0;
   }
   .text-head{
-    background-color: #fff740;
+    background-color: #a3ffb1 ;
     padding: 10px 0 10px 0;
     font-weight: 600;
     font-family: var(--paraG-font);
