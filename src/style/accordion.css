@@ -15,12 +15,17 @@
     transform: rotate(2deg);
     transition: transform .15s linear; 
 }
-
+.accordion-object:nth-child(1):hover, .accordion-object:nth-child(4):hover{
+    transform: scale(1.1);
+}
 
 .accordion-object:nth-child(2), .accordion-object:nth-child(3){
     transform: rotate(-1deg);
     transition: transform .15s linear;
 
+}
+.accordion-object:nth-child(2):hover, .accordion-object:nth-child(3):hover{
+    transform: scale(1.1);
 }
 
 

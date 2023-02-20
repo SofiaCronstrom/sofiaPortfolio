@@ -3,6 +3,7 @@ import { useState } from 'react';
 import "../style/accordion.css"
 
 
+
 const Projects = ({id, image, heading, content, link})=>{
 
     const [isActive, setIsActive] = useState(false);
@@ -29,7 +30,7 @@ const Projects = ({id, image, heading, content, link})=>{
                   {content}
             </div>
           </div>
-          
+         
         </div>
           
     
