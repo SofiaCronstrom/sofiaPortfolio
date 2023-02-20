@@ -3,7 +3,7 @@ import * as React from "react";
 import About from '../components/about.js';
 import Projects from '../components/projects.js'
 import Doodle from "../images/doodle.svg"
-import Hidoodle from "../images/hidoodle.svg"
+//import Hidoodle from "../images/hidoodle.svg"
 import Sleepcycle from "../images/sleepcycle.png";
 import Mershowroom from "../images/mershowroom.png";
 import Dizzydream from "../images/dizzydream.png";
@@ -17,31 +17,30 @@ const first = () => {
     {
         id: "item1",
         image: `${Sleepcycle}`,
-        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`,
+        heading: "Investor site for Sleep Cycle",
+        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at?`,
         link: "https://investors.sleepcycle.com/"
      },
      {
         id: "item2",
         image: `${Mershowroom}`,
-        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`,
+        heading: "Virtual showroom for MER architects",
+        content: ` Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at?`,
         link: "https://mershowroom.netlify.app/"
      },
      {
         id: "item3",
         image: `${Dizzydream}`,
-        content: `Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`,
+        heading: "WebVR game",
+        content: `Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at?`,
         link: "https://sofiacronstrom.github.io/dizzy-dream/"
      },
      {
         id: "item4",
         image: `${Weatherapp}`,
+        heading: "Weather app in pure javascript",
         content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Quis sapiente laborum cupiditate possimus labore, hic temporibus 
-        velit dicta earum suscipit commodi eum enim atque at? 
-        Et perspiciatis dolore iure voluptatem.`
+        Quis sapiente laborum cupiditate possimus labore, hic temporibus`
      }
 
     ];
@@ -49,10 +48,10 @@ const first = () => {
         
         <React.Fragment>
           <About/>
-          <img src={Hidoodle} alt="doodle" className="hi-doodle" />
+        
           <div className="project-index">
-                {accordionData.map(({ id, image, content, link }) => (
-                <Projects key={id} image={image} content={content} link={link}/>
+                {accordionData.map(({ id, image, heading, content, link }) => (
+                <Projects key={id} image={image}  content={content} link={link}/>
                 ))}
          </div>
          <img src={Doodle} alt="doodle" className="doodle" />
