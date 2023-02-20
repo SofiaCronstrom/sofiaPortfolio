@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import LinkedinIcon from '../images/linkedin-icon.png';
+
 import ProjectArrow from "../images/projectarrow.svg"
 import Doodle from "../images/doodle.svg"
 import '../style/about.css'

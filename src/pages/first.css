@@ -1,10 +1,11 @@
 /* FIRST PAGE */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root{
   --header-font: 'DM Serif Display', serif;
   --paraG-font:  'Roboto', sans-serif;
+ 
 }
 *{
   margin: 0;

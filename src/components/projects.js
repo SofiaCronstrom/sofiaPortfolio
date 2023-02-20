@@ -23,11 +23,13 @@ const Projects = ({id, image, heading, content, link})=>{
                  style={{transform: isActive ? 'translateY(100px)' : ''}}
             >
                 <img src={image} alt="the first page on sleepcycles investor site"/>
-                 <h1>{heading}</h1>  
             </div>
             <div className="accordion-content">
-                  {link ?  <a href={link}>Got to website</a> : ""}
-                  {content}
+                  <h4>{heading}</h4> 
+                  <div className="flex">
+                    {link ?  <a href={link}>Got to website</a> : ""}<br/>
+                    <p>{content}</p>
+                  </div>
             </div>
           </div>
          
