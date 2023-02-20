@@ -16,28 +16,27 @@ const first = () => {
         id: "item1",
         image: `${Sleepcycle}`,
         heading: "Sleep Cycle, inv. site",
-        content: `WaaS: EJS, emmet, less, javascript`,
         link: "https://investors.sleepcycle.com/"
      },
      {
         id: "item2",
         image: `${Mershowroom}`,
         heading: "Virtual showroom",
-        content: `BabylonJS, typescript`,
+        content: "https://github.com/SofiaCronstrom/MER_showroom",
         link: "https://mershowroom.netlify.app/"
      },
      {
         id: "item3",
         image: `${Dizzydream}`,
         heading: "WebVR game",
-        content: `A-frame`,
+        content: "https://github.com/SofiaCronstrom/dizzy-dream",
         link: "https://sofiacronstrom.github.io/dizzy-dream/"
      },
      {
         id: "item4",
         image: `${Weatherapp}`,
         heading: "Weather app",
-        content: `HTML, CSS, Javascript`
+        content: "https://github.com/SofiaCronstrom/weather-app-async"
      }
   
 

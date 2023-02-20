@@ -1,6 +1,7 @@
 /*ABOUT PAGE*/
 .wrapper-about{
   display: flex;
+ 
 }
   .index-name{
     font-family: var(--paraG-font);
@@ -107,35 +108,40 @@
     margin-top: 160px;
   }
 
-  @media only screen and (max-width: 700px){
-    .profile-container{
-      width: 180px;
-      height: 180px;
-    }
+  @media only screen and (max-width: 900px){
+ 
     .profile{
     
-      width: 150px;
-      height: 150px;
       margin: auto 0;
     }
     .text-container{
-      display: grid;
-      grid-template-columns: repeat(1, 200px);
-      grid-auto-rows: minmax(200px, auto);
-      width: 250px;
-      height: 400px;
-      font-size: 0.6em;
+      position: fixed;
+      
     }
     .text-head{
       padding-top: 10px;
       font-size: 1.2em;
       padding: 5px;
-      width: 180px;
-      height: 235px;
+  
   
     }
-    .text-head p{
-      height: 250px;
-      width: 150px;
+   .doodle{
+    position: relative;
+    margin: auto;
+    left: 0vw;
+   }
+  }
+  @media only screen and (max-width: 500px){
+       
+    .text-container{
+      opacity: 1;
+      height: 600px;
+      display: grid;
+      grid-template-columns: 100px;
+      justify-content: start;
+      justify-items: start;
+      align-items: start;
+      margin-left: 20px;
+      gap: 10px;
     }
   }
