@@ -21,7 +21,7 @@ const Projects = ({id, image, heading, content, link})=>{
         <div className="accordion-object" id={id}>
             <div className="accordion-title"
                  onClick={toggleAccordion}
-                 style={{transform: isActive ? 'translateY(100px)' : ''}}
+                 style={{transform: isActive ? 'translateY(-50px)' : ''}}
             >
                 <img src={image} alt="the first page on sleepcycles investor site"/>
             </div>

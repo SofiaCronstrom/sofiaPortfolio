@@ -28,6 +28,7 @@
   @media only screen and (max-width: 900px) {
     .wrapper-index{
       height: 100%;
+      display: flex;
     }
     html {
       font-size: 100%;

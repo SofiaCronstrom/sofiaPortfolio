@@ -1,7 +1,7 @@
 /*ABOUT PAGE*/
 .wrapper-about{
   display: flex;
- 
+  
 }
   .index-name{
     font-family: var(--paraG-font);
@@ -114,10 +114,8 @@
     
       margin: auto 0;
     }
-    .text-container{
-      position: fixed;
-      
-    }
+    
+    
     .text-head{
       padding-top: 10px;
       font-size: 1.2em;
