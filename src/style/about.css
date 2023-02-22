@@ -96,7 +96,7 @@
   .projectArrow{
   
       width: 100%;
-      margin: 10px 0 0 5vw;
+      margin: 10px 0 0 3vw;
       position: relative;
       top: -40px;
   
@@ -110,7 +110,7 @@
     height: 650px;
     position: absolute;
     left: 80vw;
-    margin-top: 100px;
+    margin-top: 30px;
   }
 
   @media only screen and (max-width: 900px){
@@ -124,7 +124,7 @@
     margin-right: 3rem;
    }
   }
-  @media only screen and (max-width: 500px){
+  @media only screen and (max-width: 600px){
     .projectArrow{
       display: none;
     }
