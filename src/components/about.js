@@ -2,6 +2,7 @@ import * as React from "react"
 
 
 import ProjectArrow from "../images/projectarrow.svg"
+import ArrowMobile from "../images/arrowMobile.svg"
 import Doodle from "../images/doodle.svg"
 import '../style/about.css'
 const About = () => {
@@ -46,6 +47,7 @@ const About = () => {
             </div>
         </div>
         <img className="projectArrow" src={ProjectArrow} alt="" />
+        <img className="arrowMobile" src={ArrowMobile} alt="" />
         <img src={Doodle} alt="doodle" className="doodle" />
         
         </div>

@@ -84,6 +84,11 @@ img{
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
-        margin: 120px auto auto 370px ;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .project-index{
+        margin: 18rem auto;
     }
 }
