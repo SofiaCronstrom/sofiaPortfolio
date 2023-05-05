@@ -5,7 +5,7 @@ import "../style/accordion.css"
 import Website from '../images/web-icon.svg';
 import Github from '../images/github-icon.svg';
 
-const Projects = ({id, image, heading, content, link})=>{
+const Projects = ({unique, id, image, heading, content, link})=>{
 
     const [isActive, setIsActive] = useState(false);
  
@@ -18,7 +18,7 @@ const Projects = ({id, image, heading, content, link})=>{
 
     return(
         <div>
-        <div className="accordion-object" id={id}>
+        <div className={`accordion-object ${unique}`} id={id}>
             <div className="accordion-title"
                  onClick={toggleAccordion}
                  style={{transform: isActive ? 'translateY(-50px)' : ''}}

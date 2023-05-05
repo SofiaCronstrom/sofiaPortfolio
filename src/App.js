@@ -17,34 +17,39 @@ const App = () => {
 
   const accordionData = [
     {
-      id: "item1",
+      unique: "item1",
+      id: "1",
       image: `${Meltdown}`,
       heading: `Meltdown mgmt -              
                 Website improvements`,
       link: "https://www.meltdown-mgmt.com/sv"
    },
     {
-        id: "item2",
+        unique: "item2",
+        id: "2",
         image: `${Sleepcycle}`,
         heading: "Sleep Cycle, inv. site",
         link: "https://investors.sleepcycle.com/"
      },
      {
-        id: "item3",
+        unique: "item3",
+        id: "3",
         image: `${Mershowroom}`,
         heading: "Virtual showroom",
         content: "https://github.com/SofiaCronstrom/MER_showroom",
         link: "https://mershowroom.netlify.app/"
      },
-     {
-        id: "item4",
+     {  
+        unique: "item4",
+        id: "4",
         image: `${Dizzydream}`,
         heading: "WebVR game",
         content: "https://github.com/SofiaCronstrom/dizzy-dream",
         link: "https://sofiacronstrom.github.io/dizzy-dream/"
      },
      {
-        id: "item5",
+        unique: "item5",
+        id: "5",
         image: `${Weatherapp}`,
         heading: "Weather app",
         content: "https://github.com/SofiaCronstrom/weather-app-async"
@@ -58,8 +63,8 @@ const App = () => {
       <About/>
         
         <div className="project-index">
-              {accordionData.map(({ id, image, heading, content, link }) => (
-              <Projects key={id} image={image}  content={content} link={link} heading={heading}/>
+              {accordionData.map(({ unique, id, image, heading, content, link }) => (
+              <Projects unique={unique} key={id} image={image}  content={content} link={link} heading={heading}/>
               ))}
        </div>
    </div>
