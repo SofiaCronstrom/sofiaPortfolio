@@ -17,28 +17,26 @@ const Projects = ({unique, id, image, heading, content, link})=>{
     
 
     return(
-        <div>
+        <>
         <div className={`accordion-object ${unique}`} id={id}>
             <div className="accordion-title"
                  onClick={toggleAccordion}
                  style={{transform: isActive ? 'translateY(-50px)' : ''}}
             >
-                <img src={image} alt="the first page on sleepcycles investor site"/>
-            </div>
-            <div className="accordion-content">
-                  <h4>{heading}</h4> 
-                  <div className="flex">
+                <h4>{heading}</h4> 
+                <img className="projectImg" src={image} alt="the first page on sleepcycles investor site"/>
+                <div className="flex">
                     {link ?  
-                    <a href={link}><img src={Website} alt="a circle with the text www inside it"/></a> 
-                    : ""}
-                     {content ?  
-                    <a href={content}><img src={Github} alt="the github icon, a round icon with the siluette of a cat in the middle "/></a> 
-                    : ""}
-                  </div>
+                        <a href={link}><img src={Website} alt="a circle with the text www inside it"/></a> 
+                        : ""}
+                    {content ?  
+                        <a href={content}><img src={Github} alt="the github icon, a round icon with the siluette of a cat in the middle "/></a> 
+                        : ""}
+                </div>
             </div>
           </div>
          
-        </div>
+        </>
           
     
     )
