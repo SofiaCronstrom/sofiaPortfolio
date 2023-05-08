@@ -20,8 +20,7 @@ const App = () => {
       unique: "item1",
       id: "1",
       image: `${Meltdown}`,
-      heading: `Meltdown mgmt -              
-                Website improvements`,
+      heading: `Meltdown mgmt`,
       link: "https://www.meltdown-mgmt.com/sv"
    },
     {
