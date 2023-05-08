@@ -18,16 +18,15 @@
   .text-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
   .profile-container{
-    
-    height: 200px;
-    background-color: #b3eeff;
+    height: 140px;
+    background-color: #C8B9CC;
     padding: 10px;
     display: flex;
     align-items: center;
-    
+    justify-items: center;
   }
 
 
@@ -39,23 +38,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a3ffb1 ;
-    padding: 10px 0 10px 0;
+    background-color: #5EAE68;
     font-weight: 300;
     font-family: var(--paraG-font);
     color: #222221;
     font-size: 16px;
    
   }
-
+  .text-contact{
+    background-color: #F8DB3C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+    font-family: var(--paraG-font);
+    color: #222221;
+    font-size: 16px;
+  }
 
   .text-head h2, h3, p{
     padding: 10px;
   
   }
   .text-head p{
-    padding: 10px;
-    width: 275px;
+    padding: 0 20px 20px 20px;
+    line-height: 23px;
+    
   }
   .mail{
    font-size: 20px;
@@ -66,69 +76,30 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-  
   }
-
+   .gitText svg{
+    transition: transform ease-in 0.2s;
+   }
   .gitText svg:hover{
-    transform: scale(.9);
+    transform: scale(.7);
   }
  
-  .projectArrow{
-  
-      width: 100%;
-      margin: 10px 0 0 3vw;
-      position: relative;
-      top: -40px;
-      display: none
-  
-  }
-  .arrowMobile{
-    display: none;
-  }
-  .doodle{
-    width: auto;
-    height: 650px;
-    position: absolute;
-    left: 80vw;
-    margin-top: 30px;
-    display: none;
-  }
-
-  @media only screen and (max-width: 1100px){
  
-     .text-head{
-      padding-top: 10px;
-      font-size: 1.2em;
-      padding: 5px;
-   }
-   .doodle{
-    margin-right: 3rem;
-   }
-  }
-  @media only screen and (max-width: 750px){
-    .projectArrow{
-      display: none;
-    }
-    .arrowMobile{
-      display: block;
-      margin: 0 0 3rem 0;
-      position: relative;
-      top: 20px;
-  
-    }
-    .wrapper-about{
-      height: 600px;
-      width: 100%;
-      margin: 0 auto;
-      justify-content: center;
-    }
 
-    .text-container{
+  @media only screen and (max-width: 850px){
+  
+   .text-container{
+      grid-template-columns: repeat(1, 1fr);
       gap: 10px;
       margin-left: 0;
+      justify-items: start;
     }
-    .doodle{
-      display: none;
-     }
+   .text-head{
+    width: 90vw;
+    align-items: start;
+   }
+   .text-head p{
+    padding-left: 10px;
+   }
 
   }

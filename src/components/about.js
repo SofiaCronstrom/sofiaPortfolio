@@ -22,7 +22,7 @@ const About = () => {
               </p>
 
           </div>
-          <div className="text-head" id="contact">
+          <div className="text-contact" id="contact">
             
             <div className="gitText">
              <a href='https://github.com/SofiaCronstrom'>
