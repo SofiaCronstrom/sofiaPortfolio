@@ -22,7 +22,7 @@ const Projects = ({unique, id, image, heading, content, link})=>{
         <div className={`accordion-object ${unique}`} id={id}
             
                  onClick={toggleAccordion}
-                 style={{transform: isActive ? 'translateY(-50px)' : ''}}
+                 style={{transform: isActive ? '' : ''}}
            >
             <h4>{heading}</h4> 
              <div className="flex">

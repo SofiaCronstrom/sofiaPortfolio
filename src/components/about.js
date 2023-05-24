@@ -4,7 +4,7 @@ const About = () => {
 
   return (
 
-   <div className="wrapper-about">
+   <header className="wrapper-about">
       
        <div className="text-container">
        <div className="profile-container">
@@ -43,7 +43,7 @@ const About = () => {
         </div>
         
         </div>
-    </div> 
+    </header> 
 
   )
 }

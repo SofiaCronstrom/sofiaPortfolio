@@ -3,7 +3,7 @@ import * as React from "react"
 
 import About from './components/about.js';
 import Projects from './components/projects.js';
-
+import Footer from './components/footer.js';
 import Sleepcycle from "./images/sleepcycle.png";
 import Mershowroom from "./images/mershowroom.png";
 import Dizzydream from "./images/dizzydream.png";
@@ -66,6 +66,8 @@ const App = () => {
               <Projects unique={unique} key={id} image={image}  content={content} link={link} heading={heading}/>
               ))}
        </div>
+      
+      <Footer />
    </div>
   
   )
